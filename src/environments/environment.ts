@@ -3,7 +3,19 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  customerapitoken :{
+    Token:"c8888",
+    EndPoint:"/customers"
+  },
+  ordersapitoken :{
+    Token:"8293",
+    EndPoint:"/orders"
+  },
+  homeapitoken :{
+    Token:"888",
+    EndPoint:"/home"
+  }
 };
 
 /*
